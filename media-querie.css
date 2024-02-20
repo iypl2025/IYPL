@@ -1,0 +1,326 @@
+@media screen and (max-width: 991px) {
+
+
+  
+  html, body{
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .custom-navbar {
+    display: none;
+    z-index: 1000;
+    position:fixed;
+    top: 0;
+    right: -300px; /* Initially off-screen to the right */
+    width: 190px;
+    height: 40%;
+    background-color: rgb(15, 15, 15);
+    padding: 0rem;
+    transition: right 0.5s ease-in-out;
+  }
+  .custom-header-title  {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.event-countdown__event-title p {
+  font-size: 30px;
+}
+.footer-column {
+  flex-basis: calc(33.33% - 1rem);
+  width: 100%;
+}
+.feb{
+  font-size: small;
+}
+.animated-text{
+  white-space: nowrap;
+    overflow: hidden;
+    font-size: 21px;   
+}
+ .text-centre2 .text-center{
+  font-size: 15px;
+}
+
+
+  
+  .custom-nav-buttons {
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+  }
+
+  .custom-nav-button {
+    display: block;
+    width: 100%;
+    border-radius: 0; /* Remove border-radius for full width */
+  }
+
+  
+  .hamburger-icon {
+    display: block;
+    color: white; /* Set the color of the hamburger icon to white */
+    margin-right: 50px;
+    margin-top: 90px;
+    font-size: 25px; 
+  }
+.custom-nav-buttons{
+  position: fixed;
+}
+   
+.footer-row {
+  display: flex;
+  flex-direction: column; /* Stack columns in a single column on small screens */
+  align-items: flex-start;
+  margin-left:-20px;
+
+}
+  .custom-navbar.active {
+    display: flex; 
+    position: fixed;
+    right:0;/* Position it below the header */
+
+  }
+   /* Additional styles for toggle animation */
+   .custom-navbar-container {
+    overflow: hidden;
+  }
+  figure.wp-block-image {
+    width: 60%; /* Make the image fill the width of the screen */
+  }
+  .custom-navabr{
+    position: absolute;
+  }
+  .moving-text{
+    font-size: small;
+  }
+  
+  	
+  
+  .user-review-container {
+    flex-direction: column; /* Display in a single column */
+    width: 330%;
+  }
+
+  body .user-reviews h2 {
+    /* More specific rule */
+    font-size: 19px;
+  }
+.user-review p {
+  font-size: 15px; /* Adjust the font size as needed */
+}
+.logo img{
+  width: 75%;
+  height: auto;
+}
+body .team-members {
+  margin-left: auto;
+  margin-right: auto;
+}
+body .team-container {
+  flex-direction: column;
+  align-items: center;
+  margin-left: 170px;
+  margin-right: auto;
+}
+
+.stylish-element p{
+  font-size: 16px;
+}
+}
+
+@media screen and (min-width: 992px) {
+  .hamburger-icon {
+    display: none !important;
+  }
+}  
+@media screen and (max-width:352px) {
+
+div.text-container{
+  	font-size: 20px;
+  }
+  
+  html, body{
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .custom-navbar {
+    display: none;
+    z-index: 1000;
+    position:fixed;
+    top: 0;
+    right: -300px; /* Initially off-screen to the right */
+    width: 190px;
+    height: 40%;
+    background-color: rgb(15, 15, 15);
+    padding: 0rem;
+    transition: right 0.5s ease-in-out;
+  }
+  .custom-header-title  {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.event-countdown__event-title p {
+  font-size: 30px;
+}
+.footer-column {
+  flex-basis: calc(33.33% - 1rem);
+  width: 100%;;
+}
+.animated-text{
+  white-space: nowrap;
+    overflow: hidden;
+    font-size: 21px;   
+}
+ .text-centre2 .text-center {
+  font-size: 15px;
+}
+  .custom-nav-buttons {
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+  }
+
+  .custom-nav-button {
+    display: block;
+    width: 100%;
+    border-radius: 0; /* Remove border-radius for full width */
+  }
+
+  
+  .hamburger-icon {
+    display: block;
+    color: white; /* Set the color of the hamburger icon to white */
+    margin-left: -10px;
+    margin-top: 90px;
+    font-size: 25px; 
+  }
+.custom-nav-buttons{
+  position: fixed;
+}
+   
+
+  .custom-navbar.active {
+    display: flex; 
+    position: fixed;
+    right:0;/* Position it below the header */
+
+  }
+   /* Additional styles for toggle animation */
+   .custom-navbar-container {
+    overflow: hidden;
+  }
+  figure.wp-block-image {
+    width: 60%; /* Make the image fill the width of the screen */
+  }
+  .custom-navabr{
+    position: absolute;
+  }
+}
+@media screen and (max-width:340px) {
+  .hamburger-icon {
+    display: block;
+    color: white; /* Set the color of the hamburger icon to white */
+    margin-left: -35px;
+    margin-top: 90px;
+    font-size: 25px; 
+  }
+}
+@media screen and   (max-width: 330px) {
+  html, body{
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .custom-navbar {
+    display: none;
+    z-index: 1000;
+    position:fixed;
+    top: 0;
+    right: -300px; /* Initially off-screen to the right */
+    width: 190px;
+    height: 40%;
+    background-color: rgb(15, 15, 15);
+    padding: 0rem;
+    transition: right 0.5s ease-in-out;
+  }
+  .custom-header-title  {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.event-countdown__event-title p {
+  font-size: 30px;
+}
+.footer-column {
+  flex-basis: calc(33.33% - 1rem);
+  width: 100%;;
+}
+.anime .animated-text{
+  white-space: nowrap;
+    overflow: hidden;
+    font-size: 18px;   
+}
+ .text-centre2 .text-center{
+  font-size: 14px;
+}
+  .custom-nav-buttons {
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+  }
+
+  .custom-nav-button {
+    display: block;
+    width: 100%;
+    border-radius: 0; /* Remove border-radius for full width */
+  }
+
+  
+  .hamburger-icon {
+    display: block;
+    color: white; /* Set the color of the hamburger icon to white */
+    margin-right: 40px;
+    margin-top: 90px;
+    font-size: 25px; 
+  }
+.custom-nav-buttons{
+  position: fixed;
+}
+   
+
+  .custom-navbar.active {
+    display: flex; 
+    position: fixed;
+    right:0;/* Position it below the header */
+
+  }
+   /* Additional styles for toggle animation */
+   .custom-navbar-container {
+    overflow: hidden;
+  }
+  figure.wp-block-image {
+    width: 60%; /* Make the image fill the width of the screen */
+  }
+  .custom-navabr{
+    position: absolute;
+  }
+  .custom-header .custom-header-container .custom-header-title a {
+    font-size: 13px;
+  }  }
+
+@media only screen and (max-width: 375px) {
+  .wp-block-image.is-resized img {
+    height:200%;
+    width: 10%;
+  }
+  body .team-members{
+    text-align: center;
+  }
+}

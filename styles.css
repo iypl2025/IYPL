@@ -1,0 +1,131 @@
+body {
+    font-family: 'Baskerville', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(0, 83, 156, 0.8); /* IAPS Blue with some transparency */
+    color: rgb(80, 197, 235);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(238, 233, 233);
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.9); /* White background with some transparency */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(0, 83, 156, 0.8); /* IAPS Blue with some transparency */
+    color: rgb(63, 68, 219);
+    text-align: center;
+    padding: 1rem;
+}
+/* Add your existing styles here */
+
+/* Add your existing styles here */
+
+section#registration {
+    background-color: rgb(96, 144, 166); 
+    color: #fff; /* White text color for the Registration section */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle box-shadow for a 3D effect */
+    border: 1px solid #0a2a4f; /* Border color for the Registration section */
+}
+
+/* Add more styles as needed */
+/* Apply basic styles to the navigation menu */
+nav {/* Border color for the Registration section */
+     background-color: rgb(103, 204, 200); /* Set background color */
+    padding: 10px; /* Add padding for better visual appeal */
+}
+.custom-footer-container {
+    background-color: #8ed1fc;
+    padding: 2rem 1rem;
+}
+/* Style the navigation menu items */
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .wp-block-button__link {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 16px;
+    display: block;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #2a4bc0;
+  }
+  .animated-text {
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .word {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(1em);
+    animation: fadeInUp 0.8s forwards;
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+

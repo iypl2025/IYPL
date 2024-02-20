@@ -1,0 +1,70 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: right; /* Align text to the right */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+.conter{
+    margin-left: 27px;
+}
+.conter h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 70px; /* Add some space below the heading */
+}
+
+.conter h3 {
+    color: #0066cc;
+    font-size: 20px;
+    margin-top: 26px;
+    margin-bottom: 8px;
+    padding: 5px; /* Add some space below the subheading */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    padding: 5px;
+}
+
+li {
+    margin-bottom: 10px;
+    position: relative;
+    padding: 5px;
+}
+
+li::before {
+    content: '\2022'; /* Unicode character for bullet point */
+    color: #0066cc; /* Color of the bullet point */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+    padding: 5px;
+}
+
+.conter p { /* Add more space below paragraphs */
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Styling for the IYPL Exam section */
+.conter h4 {
+    color: #2ecc71;
+    font-size: 22px;/* Add some space below the exam heading */
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Additional styles for Exam Info section */
+
+/* Responsive styling */
+.custom-footer-container {
+    background-color: #8ed1fc;
+    padding: 2rem 1rem;
+}
