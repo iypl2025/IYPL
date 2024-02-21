@@ -116,15 +116,46 @@
   height: auto;
 }
 body .team-members {
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body .team-members9 {
+  display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
 }
 body .team-container {
+  display: flex;
+  margin: 0;
+  margin-right: 0;
+    padding: 0;
+    margin-left: 0;
+    margin-bottom: 20px;
+    justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-left: 170px;
-  margin-right: auto;
+  
 }
+body .website {
+  display: flex;
+  margin-right: 0;
+  margin: 0;
+  margin-left: -10px;
+    padding: 0;
+    margin-bottom: 20px;
+    justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+body .webname{
+  margin-top: 0x;
+  margin-left: 0px;
+
+}
+
 
 .stylish-element p{
   font-size: 16px;
