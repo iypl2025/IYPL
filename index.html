@@ -492,7 +492,13 @@ document.addEventListener('DOMContentLoaded', function () {
         font-size: 18px;
         font-weight: bold;
         overflow: hidden; /* Hides any overflow */
-        position: relative; /* Enables absolute positioning for the moving text */
+        position: absolute; /* Position it absolutely to control its placement */
+    top: 50%; /* Position vertically at the middle of the page */
+    left: 50%; /* Position horizontally at the middle of the page */
+    transform: translate(-50%, -50%); /* Offset by 50% to fully center it */
+    width: 60%; /* Set the width of the banner to make sure it doesn't stretch across the entire page */
+    max-width: 600px; /* Optional: Set a maximum width if desired */
+    text-align: center;
     }
 
     .moving-text {
@@ -637,8 +643,8 @@ img[alt="Description of the image"] {
 
 <div class="stylish-element">
 	<div class="text-container">
-		<p>Registration Deadline - 25 Jan<sup>th</sup>, 2025</p>
-		<p>IYPL is scheduled to be held on 8<sup>th</sup>-9<sup>th</sup> Feb, 2024</p>
+		<p>Registration Deadline - 25 <sup>th</sup> Jan, 2025</p>
+		<p>IYPL is scheduled to be held on 8<sup>th</sup>-9<sup>th</sup> Feb, 2025</p>
 	</div>
 </div>
 
