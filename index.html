@@ -486,37 +486,28 @@ document.addEventListener('DOMContentLoaded', function () {
     .announcement-banner {
         background-color: #eb1c1c;
         color: #ffffff;
-        padding: 42px;
-		margin-top: 20px;
+        padding: 10px;
+	margin-top: 20px;
         text-align: center;
         font-size: 18px;
         font-weight: bold;
         overflow: hidden; /* Hides any overflow */
-        position: absolute; /* Position it absolutely to control its placement */
-    top: 50%; /* Position vertically at the middle of the page */
-    left: 50%; /* Position horizontally at the middle of the page */
-    transform: translate(-50%, -50%); /* Offset by 50% to fully center it */
-    width: 60%; /* Set the width of the banner to make sure it doesn't stretch across the entire page */
-    max-width: 600px; /* Optional: Set a maximum width if desired */
-    text-align: center;
-    }
+        position: relative; /* Prevent it from overlapping */
+    margin: 0; /* Remove any margin */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
 
-    .moving-text {
-        position: absolute;
-        margin-top: -28px;
-		text-align: center;
-        animation: none; /* Disable animation */
-    }
+.moving-text {
+    animation: blinkText 2s infinite; /* Add blinking animation */
+}
 
-    /* If you want the text to blink, you can add a blinking animation */
-    @keyframes blinkText {
-        0%, 100% { opacity: 0; }
-        50% { opacity: 1; }
-    }
+@keyframes blinkText {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
 
-    .blinking-text {
-        animation: blinkText 2s infinite;
-		margin-left:14%;
+.blinking-text {
+    animation: blinkText 2s infinite;
     }
 </style>
 </head>
@@ -529,7 +520,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	    
     </div>
 </div>
-<div class="logo" style="text-align: center;">
+<div class="logo" style="text-align: center; margin-top: 20px;">
     <img src="IYPL-logo.jpg" alt="Description of the image">
 </div>
 
