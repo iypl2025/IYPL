@@ -480,252 +480,175 @@ document.addEventListener('DOMContentLoaded', function () {
 	  
 
 		<style>
-			
-			h2 {
-				color: #007bff;
-				margin-top:20px;
-				text-align: center;
-
-			}
-			h3{
-				color: #007bff;
-				text-align: center;
-			}
-			.team-member {
-				display: inline-block;
-
-			}
-			.team-member9 {
-				display: inline-block;
-				margin: 20px;
-
-			}
-			.website img {
-				border-radius: 50%; /* Make the image circular */
-				max-width: 150px; /* Set the maximum width of the circular image */
-				height: 150px;
-				object-fit: cover;
-				margin-left: 20px;
-			}
-			.team-members{
-				margin-top: 30px;
-				margin-right: auto;
-				text-align: center;
-			}
-			.team-members9{
-				margin-top: 30px;
-				
-				text-align: center;
-			}
-			.team-member img {
-				border-radius: 50%; /* Make the image circular */
-				max-width: 150px; /* Set the maximum width of the circular image */
-				height: 150px;
-				object-fit: cover;
-
-			}
-			.team-member9 img {
-				border-radius: 50%; /* Make the image circular */
-				max-width: 150px; /* Set the maximum width of the circular image */
-				height: 150px;
-				object-fit: cover;
-
-			}
-			
-			.team-container {
-      display: flex;
-      justify-content: space-between;
-      margin: 20px;
+    h2 {
+        color: #007bff;
+        margin-top: 20px;
+        text-align: center;
     }
 
-    .team {
-      text-align: center;
+    h3 {
+        color: #007bff;
+        text-align: center;
     }
 
-    .website img, .technical img {
-      max-width: 150px;
-      border-radius: 50%;
+    .team-member, .website {
+        display: inline-block;
+        margin: 20px;
+        text-align: center;
     }
 
-    .website p, .technical p {
-      font-weight: bold;
+    .website img, .team-member img {
+        border-radius: 50%; /* Make the image circular */
+        max-width: 150px; /* Set the maximum width of the circular image */
+        height: 150px;
+        object-fit: cover;
     }
-			
-			.website{
-				display: inline-block;
-				margin-right: 100px;
-				margin-bottom: 25px; /* Adjust the margin between rows */
- /* Adjust the margin as needed */
 
+    .webname, .member-name {
+        margin-top: 10px;
+        font-weight: bold;
+    }
 
-			}
-			.team-member1 img {
-				border-radius: 50%; /* Make the image circular */
-				max-width: 100px; /* Set the maximum width of the circular image */
-				height: 120px;
+    .team-section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
 
-			}
-			.member-name {
-				margin-top: 10px;
-				font-weight: bold;
+    .team-container {
+        text-align: center;
+        margin: 0 auto;
+    }
+</style>
 
-			}
-			.member-name9 {
-				margin-top: 10px;
-				font-weight: bold;
+<div class="team-container">
+    <div class="team-section">
+        <h2>Event Organisers</h2>
+        <div class="team-member">
+            <img src="Akshat_co-organiser.jpeg" alt="Event">
+            <p class="member-name">Akshat Gupta</p>
+        </div>
+        <div class="team-member">
+            <img src="WhatsApp Image 2024-02-11 at 7.15.55 PM.jpeg" alt="President">
+            <p class="member-name">Yash Gurbani (President)</p>
+        </div>
+        <div class="team-member">
+            <img src="WhatsApp Image 2024-01-26 at 7.30.56 PM (1).jpeg" alt="Event">
+            <p class="member-name">Anant</p>
+        </div>
+    </div>
 
-			}
-			.webname{
-				margin-top: 10px;
-				font-weight: bold;
-				margin-left: 30px;
+    <div class="team-section">
+        <h3>Host Team</h3>
+        <div class="website">
+            <img src="WhatsApp Image 2024-03-07 at 5.55.13 PM.jpeg" alt="Coordinator">
+            <p class="webname">Ujjwal Yadav</p>
+        </div>
+        <div class="website">
+            <img src="nancy_graphics.jpg" alt="Coordinator">
+            <p class="webname">Nancy Chauhan</p>
+        </div>
+    </div>
 
-			}
-		
-			
-		</style>
-		<h2>Event Organisers</h2>
-		<div class="team-members">
-			
-			<div class="team-member">
-				<img src="Akshat_co-organiser.jpeg" alt="Event" width="150">
-				<p class="member-name">Akshat Gupta</p>
-			</div>
-			<div class="team-member">
-				<img src="WhatsApp Image 2024-02-11 at 7.15.55 PM.jpeg" alt="President" width="150">
-				<p class="member-name">Yash Gurbani (President)</p>
-			</div>
-			<div class="team-member">
-				<img src="WhatsApp Image 2024-01-26 at 7.30.56 PM (1).jpeg" alt="Event" width="150">
-				<p class="member-name">Anant</p>
-			</div>
-			</div>
-			<div class="team-container">
-				<div class="team website">
-				  <h3>Host Team</h3>
-				  <div class="website">
-					<img src="WhatsApp Image 2024-03-07 at 5.55.13 PM.jpeg" alt="coordinator" width="150">
-					<p class="webname">Ujjwal Yadav</p>
-				  </div>
-				  <div class="website">
-					<img src="nancy_graphics.jpg" alt="coordinator" width="150">
-					<p class="webname">Nancy Chauhan</p>
-				  </div>
-				</div>
-				<div class="team technical">
-					<h2>Coordination Team</h2>
-			<div class="website">
-				<img src="IMG_2729.JPG" alt="Coordinator" width="150">
-				<p class="webname">Ajay Kumar </p>
-			</div>
-			<div class="website">
-				<img src="WhatsApp Image 2024-01-26 at 7.27.05 PM (1).jpeg" alt="Coordinator" width="150">
-				<p class="webname">Deepak</p>
-			</div>
-			</div> 
-			  </div>
-				
-			<div class="team-container">
-				<div class="team website">
-				  <h3>Website Team</h3>
-				  <div class="website">
-					<img src="Abhi_website.jpeg" alt="IT Manager" width="150">
-					<p class="webname">Abhishek</p>
-				  </div>
-				  <div class="website">
-					<img src="Priyanshu_Website.jpg" alt="Coordinator" width="150">
-					<p class="webname">Priyanshu</p>
-				  </div>
-				  <div class="website">
-					<img src="Niharika_website.jpeg" alt="Coordinator" width="150">
-					<p class="webname">Niharika</p>
-				  </div>
-				  <div class="website">
-					<img src="WhatsApp Image 2024-02-11 at 8.07.20 PM.jpeg" alt="Coordinator" width="150">
-					<p class="webname">Swastik</p>
-				  </div>
-				</div>
-				<div class="team technical">
-					<h2>Event Team</h2>
-			<div class="website">
-				<img src="Harshit_Technical.jpg" alt="Coordinator" width="150">
-				<p class="webname">Harshit </p>
-			</div>
-			<div class="website">
-				<img src="Devangi_Event.jpg" alt="Coordinator" width="150">
-				<p class="webname">Devangi</p>
-			</div>
-			<div class="website">
-				<img src="Simran_events.jpg" alt="Coordinator" width="150">
-				<p class="webname">Simran </p>
-			</div>
-			<div class="website">
-				<img src="Lakshay_Events .jpg" alt="Coordinator" width="150">
-				<p class="webname"> Lakshay </p>
-			</div>
-			</div>
-				 
-			  </div>
-			
-			<div class="team-container">
-				<div class="team website">
-					<h2>Technical & Communication Team </h2>
-					<div class="website">
-					<img src="Saptashaw_Technical.jpg.jpg" alt="Coordinator" width="150">
-					<p class="webname">Saptashaw</p>
-				  </div>
-				  <div class="website">
-					<img src="Aditya Mukherjee_Technical.jpg" alt="Coordinator" width="150">
-					<p class="webname">Aditya</p>
-				  </div>
-					
-				  <div class="website">
-					<img src="Ankit_Technical .jpg" alt="Coordinator" width="150">
-					<p class="webname">Ankit</p>
-				  </div>
-				  <div class="website">
-					<img src="Shreyashi Manna_Technical Team.jpeg" alt="Coordinator" width="150">
-					<p class="webname">Shreyashi</p>
-				  </div>
-				
-				  <div class="website">
-					<img src="Rashmi_Communication.jpg" alt="Coordinator" width="150">
-					<p class="webname">Rashmi</p>
-				</div>
-				<div class="website">
-					<img src="Ammar_Communications.jpg" alt="Coordinator" width="150">
-					<p class="webname">Ammar</p>
-				</div>
-				</div>
-			<div class="team technical">
-					<h2>Graphics Team</h2>
-					<div class="website">
-						<img src="Shamitha_Graphics_Head.jpg" alt="Graphic Head" width="150">
-						<p class="webname">Shamitha </p>
-					</div>
-					<div class="website">
-						<img src="JAGRIT_Design.jpg" alt="Coordinator" width="150">
-						<p class="webname"> Jagrit</p>
-					</div>
-					<div class="website">
-						<img src="Maniik_Aggarwall_Logistics.jpg" alt="Coordinator" width="150">
-						<p class="webname"> Maniik Aggarwall </p>
-					</div>
-					<div class="website">
-						<img src="Keshav sharma_Logistics and Event Manager.jpg" alt="Coordinator" width="150">
-						<p class="webname"> Keshav Sharma</p>
-					</div>
-					
-					</div>
-					
-			</div>
-	
-		</div>
-	</div>
+    <div class="team-section">
+        <h2>Coordination Team</h2>
+        <div class="website">
+            <img src="IMG_2729.JPG" alt="Coordinator">
+            <p class="webname">Ajay Kumar</p>
+        </div>
+        <div class="website">
+            <img src="WhatsApp Image 2024-01-26 at 7.27.05 PM (1).jpeg" alt="Coordinator">
+            <p class="webname">Deepak</p>
+        </div>
+    </div>
+
+    <div class="team-section">
+        <h3>Website Team</h3>
+        <div class="website">
+            <img src="Abhi_website.jpeg" alt="IT Manager">
+            <p class="webname">Abhishek</p>
+        </div>
+        <div class="website">
+            <img src="Priyanshu_Website.jpg" alt="Coordinator">
+            <p class="webname">Priyanshu</p>
+        </div>
+        <div class="website">
+            <img src="Niharika_website.jpeg" alt="Coordinator">
+            <p class="webname">Niharika</p>
+        </div>
+        <div class="website">
+            <img src="WhatsApp Image 2024-02-11 at 8.07.20 PM.jpeg" alt="Coordinator">
+            <p class="webname">Swastik</p>
+        </div>
+    </div>
+
+    <div class="team-section">
+        <h2>Event Team</h2>
+        <div class="website">
+            <img src="Harshit_Technical.jpg" alt="Coordinator">
+            <p class="webname">Harshit</p>
+        </div>
+        <div class="website">
+            <img src="Devangi_Event.jpg" alt="Coordinator">
+            <p class="webname">Devangi</p>
+        </div>
+        <div class="website">
+            <img src="Simran_events.jpg" alt="Coordinator">
+            <p class="webname">Simran</p>
+        </div>
+        <div class="website">
+            <img src="Lakshay_Events .jpg" alt="Coordinator">
+            <p class="webname">Lakshay</p>
+        </div>
+    </div>
+
+    <div class="team-section">
+        <h2>Technical & Communication Team</h2>
+        <div class="website">
+            <img src="Saptashaw_Technical.jpg" alt="Coordinator">
+            <p class="webname">Saptashaw</p>
+        </div>
+        <div class="website">
+            <img src="Aditya Mukherjee_Technical.jpg" alt="Coordinator">
+            <p class="webname">Aditya</p>
+        </div>
+        <div class="website">
+            <img src="Ankit_Technical .jpg" alt="Coordinator">
+            <p class="webname">Ankit</p>
+        </div>
+        <div class="website">
+            <img src="Shreyashi Manna_Technical Team.jpeg" alt="Coordinator">
+            <p class="webname">Shreyashi</p>
+        </div>
+        <div class="website">
+            <img src="Rashmi_Communication.jpg" alt="Coordinator">
+            <p class="webname">Rashmi</p>
+        </div>
+        <div class="website">
+            <img src="Ammar_Communications.jpg" alt="Coordinator">
+            <p class="webname">Ammar</p>
+        </div>
+    </div>
+
+    <div class="team-section">
+        <h2>Graphics Team</h2>
+        <div class="website">
+            <img src="Shamitha_Graphics_Head.jpg" alt="Graphic Head">
+            <p class="webname">Shamitha</p>
+        </div>
+        <div class="website">
+            <img src="JAGRIT_Design.jpg" alt="Coordinator">
+            <p class="webname">Jagrit</p>
+        </div>
+        <div class="website">
+            <img src="Maniik_Aggarwall_Logistics.jpg" alt="Coordinator">
+            <p class="webname">Maniik Aggarwall</p>
+        </div>
+        <div class="website">
+            <img src="Keshav sharma_Logistics and Event Manager.jpg" alt="Coordinator">
+            <p class="webname">Keshav Sharma</p>
+        </div>
+    </div>
 </div>
-</div>
-</div>
-
 
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 </div>
