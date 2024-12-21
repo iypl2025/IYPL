@@ -480,14 +480,9 @@ document.addEventListener('DOMContentLoaded', function () {
 	  
 
 		<style>
-    h2 {
+    h2, h3 {
         color: #007bff;
         margin-top: 20px;
-        text-align: center;
-    }
-
-    h3 {
-        color: #007bff;
         text-align: center;
     }
 
@@ -498,10 +493,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     .website img, .team-member img {
-        border-radius: 50%; /* Make the image circular */
+        border-radius: 50%; /* Makes the images circular */
         max-width: 150px; /* Set the maximum width of the circular image */
         height: 150px;
         object-fit: cover;
+        border: 2px solid #007bff; /* Optional: Add a border for better visibility */
     }
 
     .webname, .member-name {
@@ -519,6 +515,7 @@ document.addEventListener('DOMContentLoaded', function () {
         margin: 0 auto;
     }
 </style>
+
 
 <div class="team-container">
     <div class="team-section">
